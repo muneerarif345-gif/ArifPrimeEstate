@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PrimeEstate Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>ArifPrimeEstate</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Properties</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Find Your Dream Home</h2>
+    <p>Trusted real estate agency</p>
+</section>
+
+<section class="filter">
+    <label for="priceFilter">Max Price:</label>
+    <select id="priceFilter">
+        <option value="all">Any</option>
+        <option value="100000">$100,0000</option>
+        <option value="200000">$200,0000</option>
+        <option value="300000">$300,0000</option>
+    </select>
+</section>
+
+<section class="listings" id="listings">
+    <div class="property" data-price="150000">
+        <h3>GFS Apartment</h3>
+        <p>Price: $150,0000</p>
+    </div>
+
+    <div class="property" data-price="250000">
+        <h3> Gulshan-e-Romi society Flat ground+5</h3>
+        <p>Price: $250,0000</p>
+    </div>
+
+    <div class="property" data-price="90000">
+        <h3>shadman town society Family House ground+2</h3>
+        <p>Price: $90,0000</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 PrimeEstate Agency</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
